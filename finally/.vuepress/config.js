@@ -110,8 +110,8 @@ module.exports = {
       updatePopup: true
     },
     repo: 'https://github.com/RikkaApps/Shizuku',
-    docsRepo: 'https://github.com/RikkaApps/websites',
-    docsDir: 'shizuku',
+    docsRepo: 'https://github.com/MicIsHere/websites',
+    docsDir: 'finally',
     editLinks: true
   },
   plugins: [
@@ -157,7 +157,7 @@ function getNavbar(prefix, introduction, guide, download, dev) {
   return [
     { text: introduction, link: `${prefix}introduction` },
     { text: guide, link: `${prefix}guide/setup.html` },
-    { text: dev, link: `https://github.com/RikkaApps/Shizuku/blob/master/README.md` },
+    { text: dev, link: `https://github.com/MicIsHere/Shizuku/blob/master/README.md` },
     { text: download, link: `${prefix}download.html` },
   ]
 }
