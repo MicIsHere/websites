@@ -8,7 +8,7 @@ var timestampCache = {}
 
 module.exports = {
   base: '/',
-  title: 'Shizuku',
+  title: 'Finally',
   head: [
     ['link', {
       rel: 'stylesheet',
@@ -118,7 +118,7 @@ module.exports = {
     [
       'sitemap',
       {
-        hostname: 'https://shizuku.rikka.app',
+        hostname: 'https://finally.cutemic.cn',
         exclude: ['/404.html'],
         dateFormatter: (time) => {
           timestampCache[time]
