@@ -114,7 +114,7 @@ module.exports = {
     [
       'sitemap',
       {
-        hostname: 'https://rikka.app',
+        hostname: 'https://cutemic.cn',
         exclude: ['/404.html'],
         dateFormatter: (time) => {
           timestampCache[time]
